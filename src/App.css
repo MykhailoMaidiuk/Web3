@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+
+.App {
+  height: 100vh;
+  background-color: black;
+  color: #e0e3e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.button-large {
+  padding: 2rem;
+  background-color: rgb(57 43 57);
+  color: #e0e3e4;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 0.2rem;
+}
+
+.button-large:hover {
+  cursor: pointer;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: rgb(77, 60, 77);
+  color: #e0e3e4;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  height: 2rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  /* padding: 1rem; */
+  padding-bottom: 2rem;
+  height: inherit;
+  border-radius: 10px;
+  padding-left: 0.6rem;
+}
+
+.main {
+  width: 75vw;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.right {
+  padding: 1rem;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.info {
+  font-style: italic;
+}
